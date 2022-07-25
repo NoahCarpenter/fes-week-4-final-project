@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javafinalproject4</title>
+    <link rel="stylesheet" href="./styles.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/ff49ee5e93.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <section id="navbar">
+    <div class="container nav__container">
+      <div class="row row__column">
+        <nav>
+          <figure class="fig">
+            <img
+              src="./assets/whitelogo.39850b27.png"
+              alt="logo"
+              class="logo__img"
+            />
+          </figure>
+          <ul class="nav__list">
+            <a href="" class="nav__link">Home</a>
+            <a href="" class="nav__link">Find your movie</a>
+            <a href="" class="nav__link nav__link--primary">Contact</a>
+          </ul>
+        </nav>
+        <div class="nav__content">
+          <h1 class="nav__content--title">Browse for movies</h1>
+          <div class="search-bar">
+            <input
+              type="text"
+              id="movie-search-box"
+              class="input"
+              placeholder="Search by Title, Date or Keyword"
+            />
+            <button class="fig btn" onclick="getMovies()">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="navbar__overlay"></div>
+    </div>
+  </section>
+  <body>
+    <section id="movies">
+      <div class="container">
+        <div class="row">
+          <div class="movie__list">
+            <div class="movie-card">
+              <div class="movie-card__container">
+                <figure class="fig">
+                  <img src="" alt="" class="movie__img" />
+                </figure>
+                <h2>Card Title</h2>
+                <h3>description</h3>
+                <h3>description</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
